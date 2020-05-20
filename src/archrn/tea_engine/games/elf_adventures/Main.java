@@ -21,11 +21,12 @@ public class Main
     {
         Game game = new Game();
         Time.shared.setFrameRate(60);
+        Screen.shared.setMinimumSize(new Vector2Int(800, 600));
+        Screen.shared.setSize(new Vector2Int(800, 600));
         game.getSceneManager().addScene(new Menu());
         game.getSceneManager().addScene(new Level1());
         game.start();
         Camera.getMain().setViewSize(new Vector2(15, 10));
-        Screen.shared.setMinimumSize(new Vector2Int(750, 750));
     }
 
 }
