@@ -33,8 +33,8 @@ class CoinDisplay extends TextGameObject
     {
         getScene().addGameObject(new ImageGameObject(
                 new Vector2Int(35, 35), new Vector2Int(50, 50),
-                new Sprite("/archrn/tea_engine/games/" +
-                           "elf_adventures/coin/coin_anim_f0.png"
+                new Sprite(("/archrn/tea_engine/games/" +
+                           "elf_adventures/coin/coin_anim_f0.png")
                                    .replace("/", File.separator))))
                   .getRenderer().setLayer(Layers.GUI.ordinal());
     }
@@ -46,8 +46,8 @@ class CoinDisplay extends TextGameObject
             getRenderer().setFont(Font.createFont(
                     Font.TRUETYPE_FONT,
                     getClass().getResourceAsStream(
-                            "/archrn/tea_engine/games/elf_adventures/" +
-                    "gui/Kenney Mini.ttf".replace("/", File.separator)))
+                            ("/archrn/tea_engine/games/elf_adventures/" +
+                    "gui/Kenney Mini.ttf").replace("/", File.separator)))
                                       .deriveFont(54f));
         }
         catch (Exception e)

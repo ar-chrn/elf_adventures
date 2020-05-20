@@ -25,15 +25,15 @@ import java.io.File;
 class Menu extends Scene
 {
 
-    private String background = "/archrn/tea_engine/games/" +
-            "elf_adventures/walls/wall_mid.png"
+    private String background = ("/archrn/tea_engine/games/" +
+            "elf_adventures/walls/wall_mid.png")
                     .replace("/", File.separator);
-    private String font = "/archrn/tea_engine/games/elf_adventures/" +
-            "gui/Kenney Mini.ttf".replace("/", File.separator);
-    private String lmb = "/archrn/tea_engine/games/elf_adventures/gui/" +
-            "LMB.png".replace("/", File.separator);
-    private String wasd = "/archrn/tea_engine/games/elf_adventures/gui/" +
-            "WASD.png".replace("/", File.separator);
+    private String font = ("/archrn/tea_engine/games/elf_adventures/" +
+            "gui/Kenney Mini.ttf").replace("/", File.separator);
+    private String lmb = ("/archrn/tea_engine/games/elf_adventures/gui/" +
+            "LMB.png").replace("/", File.separator);
+    private String wasd = ("/archrn/tea_engine/games/elf_adventures/gui/" +
+            "WASD.png").replace("/", File.separator);
 
     private Color tint = new Color(34, 34, 34);
     private Color dark = new Color(70, 59, 58);
