@@ -21,8 +21,6 @@ class Elf extends GameObject
         addComponent(new SpriteRenderer()).setLayer(Layers.PLAYER.ordinal());
         addComponent(new CircleCollider(0.5f,
                                         new Vector2(0, -0.15f)));
-//        addComponent(new RectangleCollider(new Vector2(1f, 1),
-//                                           new Vector2(0, -0.15f)));
         addComponent(new Animator(Animations.elf().idle()));
         addComponent(new ElfMovement());
         addComponent(new ElfShoot());
