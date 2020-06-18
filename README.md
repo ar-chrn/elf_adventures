@@ -1,5 +1,5 @@
 # Elf Adventures
-Игра, демонстрирующая возможности игрового движка [tea_engine](Tea Engine).
+Игра, демонстрирующая возможности игрового движка [Tea Engine][tea_engine].
 
 ![alt text][menu]
 
